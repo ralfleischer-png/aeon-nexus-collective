@@ -1,0 +1,5 @@
+<pre>---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/superral/public_html/aeon_deploy
+- /bin/cp -R * $DEPLOYPATH</pre>
