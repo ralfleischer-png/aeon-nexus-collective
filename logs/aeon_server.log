@@ -1,0 +1,512 @@
+2025-12-26 19:43:45,352 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 19:43:55,146 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 19:45:22,199 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 19:45:22,762 [ERROR] main: Exception on /api/v3/log [POST]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/log_chain.py", line 40, in append_log
+    last = conn.execute(
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 19:45:22,765 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:01:32,669 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:19:48,439 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:19:57,290 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:20:29,987 [ERROR] main: Exception on /admin/ui/chain [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 38, in chain_view
+    rows = conn.execute("""
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:20:29,989 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:25:57,993 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:26:13,390 [ERROR] main: Exception on /admin/ui/chain [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 38, in chain_view
+    rows = conn.execute("""
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:26:13,393 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:26:23,761 [ERROR] main: Exception on /admin/ui/memory [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 93, in memory_view
+    rows = conn.execute(query, params).fetchall()
+sqlite3.OperationalError: no such table: aeon_collective_memory
+2025-12-26 20:26:23,762 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:28:07,906 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:28:07,922 [ERROR] main: Exception on /admin/ui/chain [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 38, in chain_view
+    rows = conn.execute("""
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:28:07,925 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:28:18,982 [ERROR] main: Exception on /admin/ui/chain [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 38, in chain_view
+    rows = conn.execute("""
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:28:18,983 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:28:21,839 [ERROR] main: Exception on /admin/ui/chain [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 38, in chain_view
+    rows = conn.execute("""
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:28:21,840 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:29:04,849 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:29:35,375 [ERROR] main: Exception on /admin/ui/memory [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 93, in memory_view
+    rows = conn.execute(query, params).fetchall()
+sqlite3.OperationalError: no such table: aeon_collective_memory
+2025-12-26 20:29:35,378 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:30:10,746 [ERROR] main: Exception on /admin/health [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin.py", line 11, in health
+    cur = conn.execute("SELECT COUNT(*) AS cnt FROM aeon_log_chain")
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:30:10,748 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:33:10,996 [ERROR] main: Database initialization failed: near "INDEX": syntax error
+2025-12-26 20:33:11,017 [ERROR] main: Exception on /admin/health [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/admin.py", line 11, in health
+    cur = conn.execute("SELECT COUNT(*) AS cnt FROM aeon_log_chain")
+sqlite3.OperationalError: no such table: aeon_log_chain
+2025-12-26 20:33:11,020 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 20:36:17,444 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 20:36:25,580 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 20:46:15,269 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 20:59:47,330 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 20:59:47,344 [ERROR] main: Exception on /api/v3/collective/memory [POST]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/collective.py", line 270, in handle_memory
+    conn.execute("""
+sqlite3.IntegrityError: CHECK constraint failed: insight_type IN ('PROPOSAL','VOTE','MEMORY','DECISION','INSIGHT')
+2025-12-26 20:59:47,347 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 21:00:09,209 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 21:00:42,859 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 21:03:53,940 [ERROR] main: Database initialization failed: Incorrect number of bindings supplied. The current statement uses 6, and there are 7 supplied.
+2025-12-26 21:13:36,969 [ERROR] main: Exception on /api/v3/collective/memory [POST]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/collective.py", line 270, in handle_memory
+    conn.execute("""
+sqlite3.IntegrityError: CHECK constraint failed: insight_type IN ('PROPOSAL','VOTE','MEMORY','DECISION','INSIGHT')
+2025-12-26 21:13:36,972 [ERROR] main: Internal error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-26 21:25:59,234 [INFO] main: Database tables initialized
+2025-12-26 21:26:10,861 [INFO] main: Database tables initialized
+2025-12-26 21:27:32,547 [INFO] main: Database tables initialized
+2025-12-26 21:50:37,213 [INFO] main: Database tables initialized
+2025-12-26 21:50:45,446 [INFO] main: Database tables initialized
+2025-12-26 21:55:18,521 [INFO] main: Database tables initialized
+2025-12-26 22:27:33,306 [ERROR] main: Exception on /api/v3/collective/propose [POST]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/collective.py", line 43, in submit_proposal
+    valid, reason = security.verify_signature_v151(signature, timestamp, nonce, node_id, raw_payload)
+  File "/home/superral/aeon_nexus/core/security.py", line 66, in verify_signature_v151
+    print(f"Base String: '{base_string}'", flush=True)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe6' in position 131: ordinal not in range(128)
+2025-12-26 22:27:55,713 [ERROR] main: Exception on /api/v3/collective/propose [POST]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/collective.py", line 43, in submit_proposal
+    valid, reason = security.verify_signature_v151(signature, timestamp, nonce, node_id, raw_payload)
+  File "/home/superral/aeon_nexus/core/security.py", line 66, in verify_signature_v151
+    print(f"Base String: '{base_string}'", flush=True)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe6' in position 131: ordinal not in range(128)
+2025-12-27 00:50:47,051 [INFO] main: Config loaded successfully
+2025-12-27 00:50:47,056 [INFO] main: Core modules loaded successfully
+2025-12-27 00:50:47,067 [INFO] main: Registered: routes.collective
+2025-12-27 00:50:47,070 [INFO] main: Registered: routes.log_chain
+2025-12-27 00:50:47,073 [INFO] main: Registered: routes.admin
+2025-12-27 00:50:47,076 [INFO] main: Registered: routes.admin_ui
+2025-12-27 00:50:47,081 [INFO] main: Registered: routes.api_v1
+2025-12-27 00:50:47,085 [INFO] main: Registered: routes.api_v2
+2025-12-27 00:50:47,099 [INFO] main: Database initialized
+2025-12-27 00:51:03,458 [INFO] main: Config loaded successfully
+2025-12-27 00:51:03,463 [INFO] main: Core modules loaded successfully
+2025-12-27 00:51:03,473 [INFO] main: Registered: routes.collective
+2025-12-27 00:51:03,475 [INFO] main: Registered: routes.log_chain
+2025-12-27 00:51:03,478 [INFO] main: Registered: routes.admin
+2025-12-27 00:51:03,481 [INFO] main: Registered: routes.admin_ui
+2025-12-27 00:51:03,484 [INFO] main: Registered: routes.api_v1
+2025-12-27 00:51:03,487 [INFO] main: Registered: routes.api_v2
+2025-12-27 00:51:03,508 [INFO] main: Database initialized
+2025-12-27 00:51:03,524 [ERROR] main: Database health check failed: '_GeneratorContextManager' object has no attribute 'execute'
+2025-12-27 00:55:30,508 [INFO] main: Config loaded successfully
+2025-12-27 00:55:30,512 [INFO] main: Core modules loaded successfully
+2025-12-27 00:55:30,520 [INFO] main: Registered: routes.collective
+2025-12-27 00:55:30,522 [INFO] main: Registered: routes.log_chain
+2025-12-27 00:55:30,524 [INFO] main: Registered: routes.admin
+2025-12-27 00:55:30,527 [INFO] main: Registered: routes.admin_ui
+2025-12-27 00:55:30,530 [INFO] main: Registered: routes.api_v1
+2025-12-27 00:55:30,533 [INFO] main: Registered: routes.api_v2
+2025-12-27 00:55:30,542 [INFO] main: Database initialized
+2025-12-27 00:55:30,554 [ERROR] main: Database health check failed: '_GeneratorContextManager' object has no attribute 'execute'
+2025-12-27 00:55:38,010 [ERROR] main: Database health check failed: '_GeneratorContextManager' object has no attribute 'execute'
+2025-12-27 00:55:39,289 [INFO] main: Config loaded successfully
+2025-12-27 00:55:39,292 [INFO] main: Core modules loaded successfully
+2025-12-27 00:55:39,299 [INFO] main: Registered: routes.collective
+2025-12-27 00:55:39,301 [INFO] main: Registered: routes.log_chain
+2025-12-27 00:55:39,303 [INFO] main: Registered: routes.admin
+2025-12-27 00:55:39,304 [INFO] main: Registered: routes.admin_ui
+2025-12-27 00:55:39,306 [INFO] main: Registered: routes.api_v1
+2025-12-27 00:55:39,309 [INFO] main: Registered: routes.api_v2
+2025-12-27 00:55:39,316 [INFO] main: Database initialized
+2025-12-27 01:07:48,986 [INFO] main: Config loaded successfully
+2025-12-27 01:07:48,992 [INFO] main: Core modules loaded successfully
+2025-12-27 01:07:49,001 [INFO] main: Registered: routes.collective
+2025-12-27 01:07:49,003 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:07:49,006 [INFO] main: Registered: routes.admin
+2025-12-27 01:07:49,008 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:07:49,011 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:07:49,014 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:07:50,086 [INFO] main: Config loaded successfully
+2025-12-27 01:07:50,090 [INFO] main: Core modules loaded successfully
+2025-12-27 01:07:50,099 [INFO] main: Registered: routes.collective
+2025-12-27 01:07:50,102 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:07:50,105 [INFO] main: Registered: routes.admin
+2025-12-27 01:07:50,107 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:07:50,110 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:07:50,114 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:07:50,123 [INFO] main: Database initialized successfully
+2025-12-27 01:20:43,882 [INFO] main: Config loaded successfully
+2025-12-27 01:20:43,886 [INFO] main: Core modules loaded successfully
+2025-12-27 01:20:43,895 [INFO] main: Registered: routes.collective
+2025-12-27 01:20:43,897 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:20:43,900 [INFO] main: Registered: routes.admin
+2025-12-27 01:20:43,904 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:20:43,908 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:20:43,909 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:20:43,914 [INFO] main: Database initialized successfully
+2025-12-27 01:20:43,932 [ERROR] main: Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 489, in admin_index
+    return render_template_string(LAYOUT % content)
+ValueError: unsupported format character ';' (0x3b) at index 855
+2025-12-27 01:20:43,934 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-27 01:20:56,722 [INFO] main: Config loaded successfully
+2025-12-27 01:20:56,725 [INFO] main: Core modules loaded successfully
+2025-12-27 01:20:56,731 [INFO] main: Registered: routes.collective
+2025-12-27 01:20:56,733 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:20:56,734 [INFO] main: Registered: routes.admin
+2025-12-27 01:20:56,736 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:20:56,738 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:20:56,740 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:20:56,750 [INFO] main: Database initialized successfully
+2025-12-27 01:22:36,763 [INFO] main: Config loaded successfully
+2025-12-27 01:22:36,766 [INFO] main: Core modules loaded successfully
+2025-12-27 01:22:36,773 [INFO] main: Registered: routes.collective
+2025-12-27 01:22:36,775 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:22:36,777 [INFO] main: Registered: routes.admin
+2025-12-27 01:22:36,781 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:22:36,784 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:22:36,787 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:22:36,795 [INFO] main: Database initialized successfully
+2025-12-27 01:22:40,723 [INFO] main: Config loaded successfully
+2025-12-27 01:22:40,726 [INFO] main: Core modules loaded successfully
+2025-12-27 01:22:40,731 [INFO] main: Registered: routes.collective
+2025-12-27 01:22:40,733 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:22:40,734 [INFO] main: Registered: routes.admin
+2025-12-27 01:22:40,736 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:22:40,739 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:22:40,741 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:22:40,749 [INFO] main: Database initialized successfully
+2025-12-27 01:22:45,693 [ERROR] main: Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/admin_ui.py", line 489, in admin_index
+    return render_template_string(LAYOUT % content)
+ValueError: unsupported format character ';' (0x3b) at index 855
+2025-12-27 01:22:45,696 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-27 01:31:24,093 [INFO] main: Config loaded successfully
+2025-12-27 01:31:24,096 [INFO] main: Core modules loaded successfully
+2025-12-27 01:31:24,101 [INFO] main: Registered: routes.collective
+2025-12-27 01:31:24,103 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:31:24,105 [INFO] main: Registered: routes.admin
+2025-12-27 01:31:24,112 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:31:24,117 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:31:24,120 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:31:24,131 [INFO] main: Database initialized successfully
+2025-12-27 01:31:24,132 [INFO] main: AEON Nexus application created successfully
+2025-12-27 01:41:55,011 [INFO] main: Config loaded successfully
+2025-12-27 01:41:55,015 [INFO] main: Core modules loaded successfully
+2025-12-27 01:41:55,024 [INFO] main: Registered: routes.collective
+2025-12-27 01:41:55,026 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:41:55,028 [INFO] main: Registered: routes.admin
+2025-12-27 01:41:55,031 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:41:55,040 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:41:55,047 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:41:55,058 [INFO] main: Database initialized successfully
+2025-12-27 01:41:55,059 [INFO] main: AEON Nexus application created successfully
+2025-12-27 01:41:55,078 [ERROR] main: Exception on /api/v1/protocol [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/api_v1.py", line 380, in protocol_info
+    return render_template_string(
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/templating.py", line 161, in render_template_string
+    template = app.jinja_env.from_string(source)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 9, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got ':'
+2025-12-27 01:41:55,081 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-27 01:43:32,430 [INFO] main: Config loaded successfully
+2025-12-27 01:43:32,434 [INFO] main: Core modules loaded successfully
+2025-12-27 01:43:32,443 [INFO] main: Registered: routes.collective
+2025-12-27 01:43:32,445 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:43:32,446 [INFO] main: Registered: routes.admin
+2025-12-27 01:43:32,450 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:43:32,455 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:43:32,458 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:43:32,478 [INFO] main: Database initialized successfully
+2025-12-27 01:43:32,478 [INFO] main: AEON Nexus application created successfully
+2025-12-27 01:43:32,503 [ERROR] main: Exception on /api/v1/protocol [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/api_v1.py", line 380, in protocol_info
+    return render_template_string(
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/templating.py", line 161, in render_template_string
+    template = app.jinja_env.from_string(source)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 9, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got ':'
+2025-12-27 01:43:32,506 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-27 01:43:41,470 [INFO] main: Config loaded successfully
+2025-12-27 01:43:41,473 [INFO] main: Core modules loaded successfully
+2025-12-27 01:43:41,480 [INFO] main: Registered: routes.collective
+2025-12-27 01:43:41,482 [INFO] main: Registered: routes.log_chain
+2025-12-27 01:43:41,485 [INFO] main: Registered: routes.admin
+2025-12-27 01:43:41,489 [INFO] main: Registered: routes.admin_ui
+2025-12-27 01:43:41,497 [INFO] main: Registered: routes.api_v1
+2025-12-27 01:43:41,500 [INFO] main: Registered: routes.api_v2
+2025-12-27 01:43:41,509 [INFO] main: Database initialized successfully
+2025-12-27 01:43:41,509 [INFO] main: AEON Nexus application created successfully
+2025-12-27 01:43:41,529 [ERROR] main: Exception on /health [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/main.py", line 701, in health
+    return render_template_string(
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/templating.py", line 161, in render_template_string
+    template = app.jinja_env.from_string(source)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 9, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got ':'
+2025-12-27 01:43:41,532 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-27 01:51:19,027 [ERROR] main: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/main.py", line 644, in index
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/templating.py", line 161, in render_template_string
+    template = app.jinja_env.from_string(source)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 9, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got ':'
+2025-12-27 01:51:19,030 [ERROR] main: 500 Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.

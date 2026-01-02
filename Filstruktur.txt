@@ -1,0 +1,23 @@
+aeon_nexus/
+├── core/
+│   ├── __init__.py
+│   ├── security.py
+│   ├── database.py
+│   └── validation.py
+├── routes/
+│   ├── __init__.py
+│   ├── collective.py
+│   ├── log_chain.py
+│   └── admin.py
+├── middleware/
+│   ├── __init__.py
+│   ├── https_enforce.py
+│   └── rate_limit.py
+├── wsgi/
+│   └── aeon_wsgi.py
+├── config.py
+├── main.py
+├── requirements.txt
+├── passenger_wsgi.py
+├── .htaccess
+└── README_CPANEL.md

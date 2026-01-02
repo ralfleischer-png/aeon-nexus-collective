@@ -1,0 +1,3834 @@
+ERROR: 'schedule' library not found.
+Install with: pip install schedule
+ERROR: 'schedule' library not found.
+Install with: pip install schedule
+ERROR: 'schedule' library not found.
+Install with: pip install schedule
+ERROR: 'schedule' library not found.
+Install with: pip install schedule
+2025-12-27 16:06:04,391 - consensus_engine - INFO - Adding evaluation tracking columns
+INFO: Adding evaluation tracking columns
+2025-12-27 16:06:04,453 - consensus_engine - INFO - Added evaluated_by and evaluated_at columns
+INFO: Added evaluated_by and evaluated_at columns
+2025-12-27 16:06:04,500 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:06:04,502 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:07:03,775 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:07:03,777 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:08:05,528 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:08:05,530 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:09:05,488 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:09:05,490 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:10:09,595 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:10:09,597 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:11:05,385 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:11:05,386 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:12:03,911 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:12:03,913 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:13:04,612 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:13:04,613 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:14:07,260 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:14:07,261 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:15:10,786 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:15:10,787 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:16:04,040 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:16:04,041 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:17:03,809 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:17:03,811 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:18:04,944 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:18:04,946 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:19:03,527 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:19:03,528 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:20:07,658 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:20:07,659 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:21:03,648 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:21:03,649 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:22:04,572 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:22:04,573 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:23:02,960 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:23:02,961 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:24:04,883 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:24:04,885 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:25:07,238 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:25:07,240 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:26:03,531 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:26:03,532 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:27:03,399 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:27:03,401 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:28:08,933 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:28:08,934 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:29:03,116 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:29:03,117 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:30:10,196 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:30:10,198 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:31:03,530 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:31:03,531 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:32:03,923 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:32:03,925 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:33:04,359 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:33:04,361 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:34:04,282 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:34:04,283 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:35:08,410 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:35:08,411 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:36:04,435 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:36:04,436 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:37:04,058 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:37:04,060 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:38:04,669 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:38:04,671 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:39:04,172 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:39:04,173 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:40:05,224 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:40:05,225 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:41:03,890 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:41:03,891 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:42:10,577 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:42:10,584 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:43:03,756 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:43:03,757 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:44:03,221 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:44:03,222 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:45:08,274 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:45:08,276 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:46:04,663 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:46:04,664 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:47:05,307 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:47:05,309 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:48:03,847 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:48:03,849 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:49:03,386 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:49:03,387 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:50:07,082 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:50:07,084 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:51:03,718 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:51:03,720 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:52:03,680 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:52:03,682 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:53:04,180 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:53:04,182 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:54:03,475 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:54:03,477 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:55:07,462 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:55:07,464 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:56:06,450 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:56:06,451 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:57:03,928 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:57:03,929 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:58:04,876 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:58:04,878 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 16:59:03,963 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 16:59:03,964 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:00:15,862 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:00:15,864 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:01:04,653 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:01:04,654 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:02:04,620 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:02:04,622 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:03:04,888 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:03:04,890 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:04:04,119 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:04:04,123 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:05:08,646 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:05:08,648 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:06:03,559 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:06:03,560 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:07:04,964 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:07:04,966 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:08:03,664 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:08:03,665 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:09:04,409 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:09:04,411 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:10:08,737 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:10:08,738 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:11:03,904 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:11:03,905 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:12:03,204 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:12:03,205 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:13:04,051 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:13:04,053 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:14:09,633 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:14:09,635 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:15:08,085 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:15:08,087 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:16:04,257 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:16:04,258 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:17:03,274 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:17:03,276 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:18:04,365 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:18:04,367 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:19:04,139 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:19:04,141 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:20:05,462 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:20:05,464 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:21:03,891 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:21:03,893 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:22:05,453 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:22:05,454 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:23:04,479 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:23:04,480 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:24:03,882 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:24:03,884 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:25:07,634 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:25:07,636 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:26:03,965 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:26:03,966 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:27:03,409 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:27:03,410 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:28:06,468 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:28:06,469 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:29:03,684 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:29:03,686 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:30:08,337 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:30:08,338 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:31:03,950 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:31:03,951 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:32:04,352 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:32:04,353 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:33:03,119 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:33:03,120 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:34:04,705 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:34:04,707 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:35:07,073 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:35:07,074 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:36:04,363 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:36:04,364 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:37:03,340 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:37:03,341 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:38:03,788 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:38:03,790 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:39:04,131 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:39:04,133 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:40:07,215 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:40:07,217 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:41:04,093 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:41:04,095 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:42:10,613 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:42:10,614 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:43:03,729 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:43:03,730 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:44:04,397 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:44:04,398 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:45:08,477 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:45:08,478 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:46:04,879 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:46:04,880 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:47:03,675 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:47:03,677 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:48:04,020 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:48:04,022 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:49:03,527 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:49:03,528 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:50:07,828 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:50:07,830 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:51:03,583 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:51:03,585 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:52:03,720 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:52:03,721 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:53:03,175 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:53:03,177 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:54:03,606 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:54:03,608 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:55:07,049 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:55:07,050 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:56:06,464 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:56:06,465 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:57:04,018 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:57:04,020 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:58:03,766 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:58:03,767 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 17:59:03,318 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 17:59:03,319 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:00:08,553 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:00:08,554 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:01:03,465 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:01:03,466 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:02:04,021 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:02:04,022 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:03:03,841 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:03:03,843 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:04:04,272 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:04:04,273 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:05:06,796 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:05:06,797 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:06:03,703 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:06:03,705 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:07:12,734 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:07:12,736 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:08:04,343 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:08:04,349 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:09:04,901 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:09:04,902 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:10:06,290 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:10:06,291 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:11:03,735 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:11:03,736 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:12:03,527 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:12:03,529 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:13:03,877 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:13:03,879 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:14:09,558 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:14:09,560 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:15:07,777 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:15:07,778 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:16:05,119 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:16:05,121 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:17:03,834 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:17:03,835 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:18:03,744 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:18:03,745 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:19:03,553 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:19:03,554 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:20:05,574 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:20:05,575 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:21:05,014 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:21:05,015 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:22:04,925 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:22:04,927 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:23:04,367 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:23:04,369 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:24:03,525 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:24:03,526 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:25:07,126 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:25:07,128 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:26:04,195 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:26:04,196 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:27:03,393 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:27:03,394 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:28:10,511 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:28:10,513 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:29:03,485 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:29:03,486 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:30:08,541 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:30:08,544 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:31:03,633 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:31:03,634 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:32:04,218 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:32:04,219 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:33:03,635 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:33:03,636 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:34:04,088 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:34:04,089 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:35:05,081 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:35:05,082 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:36:04,338 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:36:04,340 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:37:03,322 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:37:03,324 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:38:04,154 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:38:04,155 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:39:04,042 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:39:04,044 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:40:07,012 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:40:07,014 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:41:04,343 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:41:04,345 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:42:10,547 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:42:10,549 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:43:04,206 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:43:04,207 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:44:03,758 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:44:03,759 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:45:05,984 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:45:05,985 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:46:04,311 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:46:04,312 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:47:03,576 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:47:03,578 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:48:04,291 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:48:04,293 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:49:03,636 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:49:03,637 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:50:06,525 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:50:06,527 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:51:03,323 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:51:03,325 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:52:04,825 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:52:04,826 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:53:04,093 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:53:04,094 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:54:04,280 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:54:04,281 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:55:05,996 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:55:05,998 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:56:11,147 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:56:11,148 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:57:03,320 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:57:03,322 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:58:04,839 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:58:04,841 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 18:59:03,677 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 18:59:03,679 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:00:12,596 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:00:12,601 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:01:04,102 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:01:04,103 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:02:05,727 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:02:05,728 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:03:03,531 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:03:03,532 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:04:04,538 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:04:04,539 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:05:07,431 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:05:07,435 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:06:04,865 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:06:04,867 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:07:03,766 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:07:03,767 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:08:05,056 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:08:05,058 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:09:03,502 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:09:03,504 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:10:09,277 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:10:09,278 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:11:03,735 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:11:03,737 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:12:04,260 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:12:04,262 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:13:03,154 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:13:03,155 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:14:06,138 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:14:06,139 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:15:06,751 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:15:06,752 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:16:04,355 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:16:04,357 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:17:03,188 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:17:03,189 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:18:03,512 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:18:03,514 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:19:02,798 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:19:02,799 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:20:09,547 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:20:09,549 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:21:03,287 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:21:03,289 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:22:03,566 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:22:03,567 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:23:03,239 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:23:03,240 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:24:04,055 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:24:04,056 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:25:05,807 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:25:05,809 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:26:04,268 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:26:04,270 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:27:04,059 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:27:04,060 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:28:09,071 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:28:09,073 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:29:02,975 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:29:02,976 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:30:06,509 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:30:06,510 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:31:03,868 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:31:03,869 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:32:04,325 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:32:04,326 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:33:03,063 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:33:03,064 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:34:04,557 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:34:04,558 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:35:05,220 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:35:05,221 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:36:04,346 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:36:04,347 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:37:03,736 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:37:03,737 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:38:04,229 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:38:04,231 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:39:03,563 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:39:03,563 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:40:08,091 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:40:08,092 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:41:03,861 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:41:03,862 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:42:11,061 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:42:11,062 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:43:04,805 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:43:04,806 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:44:05,014 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:44:05,015 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:45:07,225 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:45:07,227 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:46:05,882 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:46:05,883 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:47:03,536 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:47:03,537 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:48:04,756 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:48:04,758 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:49:11,015 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:49:11,016 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:50:06,948 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:50:06,949 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:51:04,118 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:51:04,119 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:52:04,001 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:52:04,002 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:53:03,765 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:53:03,767 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:54:03,225 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:54:03,227 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:55:08,306 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:55:08,307 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:56:03,449 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:56:03,451 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:57:03,846 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:57:03,847 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:58:04,950 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:58:04,951 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 19:59:03,464 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 19:59:03,464 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:00:09,107 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:00:09,108 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:01:06,419 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:01:06,421 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:02:03,270 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:02:03,271 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:03:03,817 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:03:03,818 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:04:04,537 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:04:04,538 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:05:06,162 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:05:06,163 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:06:03,376 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:06:03,377 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:07:08,883 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:07:08,885 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:08:03,700 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:08:03,702 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:09:03,688 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:09:03,689 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:10:05,928 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:10:05,930 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:11:04,251 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:11:04,253 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:12:03,903 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:12:03,905 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:13:03,626 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:13:03,628 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:14:02,973 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:14:02,975 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:15:07,407 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:15:07,409 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:16:03,484 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:16:03,485 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:17:03,967 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:17:03,968 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:18:03,820 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:18:03,821 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:19:03,656 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:19:03,657 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:20:05,676 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:20:05,677 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:21:12,480 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:21:12,481 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:22:03,428 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:22:03,430 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:23:04,599 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:23:04,601 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:24:03,473 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:24:03,475 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:25:07,793 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:25:07,794 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:26:03,820 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:26:03,821 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:27:04,203 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:27:04,205 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:28:13,652 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:28:13,653 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:29:04,401 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:29:04,403 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:30:07,022 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:30:07,023 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:31:03,741 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:31:03,743 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:32:03,635 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:32:03,636 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:33:03,674 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:33:03,676 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:34:04,115 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:34:04,117 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:35:05,107 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:35:05,109 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:36:04,535 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:36:04,537 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:37:03,243 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:37:03,245 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:38:05,046 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:38:05,048 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:39:04,255 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:39:04,257 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:40:07,804 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:40:07,806 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:41:03,504 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:41:03,505 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:42:12,551 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:42:12,552 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:43:04,041 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:43:04,043 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:44:03,419 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:44:03,420 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:45:06,791 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:45:06,792 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:46:06,118 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:46:06,119 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:47:03,660 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:47:03,662 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:48:04,253 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:48:04,255 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:49:03,037 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:49:03,038 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:50:06,472 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:50:06,474 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:51:03,979 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:51:03,980 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:52:03,728 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:52:03,729 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:53:04,346 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:53:04,347 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:54:03,710 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:54:03,711 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:55:05,430 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:55:05,436 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:56:06,992 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:56:06,993 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:57:03,713 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:57:03,714 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:58:04,004 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:58:04,006 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 20:59:03,151 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 20:59:03,152 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:00:14,028 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:00:14,030 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:01:03,624 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:01:03,626 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:02:03,597 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:02:03,598 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:03:03,643 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:03:03,646 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:04:04,157 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:04:04,158 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:05:06,893 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:05:06,895 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:06:04,371 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:06:04,377 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:07:03,553 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:07:03,555 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:08:04,062 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:08:04,063 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:09:03,751 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:09:03,753 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:10:07,111 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:10:07,113 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:11:03,849 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:11:03,851 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:12:05,402 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:12:05,404 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:13:03,368 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:13:03,369 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:14:10,520 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:14:10,521 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:15:06,692 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:15:06,694 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:16:04,677 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:16:04,679 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:17:03,828 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:17:03,829 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:18:04,206 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:18:04,208 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:19:03,373 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:19:03,374 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:20:06,684 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:20:06,685 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:21:05,708 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:21:05,709 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:22:04,228 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:22:04,230 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:23:03,133 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:23:03,134 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:24:04,545 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:24:04,546 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:25:07,053 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:25:07,055 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:26:04,091 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:26:04,092 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:27:03,220 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:27:03,222 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:28:10,225 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:28:10,227 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:29:03,237 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:29:03,238 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:30:05,777 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:30:05,779 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:31:03,758 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:31:03,759 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:32:03,847 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:32:03,848 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:33:03,837 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:33:03,838 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:34:03,261 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:34:03,262 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:35:08,900 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:35:08,902 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:36:03,583 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:36:03,584 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:37:03,885 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:37:03,886 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:38:04,164 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:38:04,166 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:39:03,993 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:39:03,995 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:40:06,216 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:40:06,218 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:41:03,570 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:41:03,572 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:42:06,695 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:42:06,697 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:43:04,304 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:43:04,306 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:44:03,601 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:44:03,603 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:45:10,416 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:45:10,417 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:46:03,671 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:46:03,673 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:47:03,812 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:47:03,813 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:48:04,662 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:48:04,663 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:49:04,279 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:49:04,281 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:50:07,364 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:50:07,365 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:51:03,531 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:51:03,533 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:52:04,107 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:52:04,108 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:53:03,681 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:53:03,682 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:54:04,182 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:54:04,183 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:55:08,525 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:55:08,527 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:56:05,470 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:56:05,471 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:57:03,572 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:57:03,573 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:58:03,595 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:58:03,596 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 21:59:03,509 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 21:59:03,511 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:00:08,804 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:00:08,805 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:01:04,084 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:01:04,086 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:02:03,931 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:02:03,932 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:03:03,906 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:03:03,908 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:04:03,931 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:04:03,932 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:05:07,447 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:05:07,449 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:06:04,121 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:06:04,123 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:07:05,596 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:07:05,597 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:08:03,700 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:08:03,701 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:09:04,453 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:09:04,454 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:10:05,320 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:10:05,321 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:11:03,508 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:11:03,510 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:12:04,269 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:12:04,271 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:13:03,552 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:13:03,554 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:14:05,235 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:14:05,236 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:15:05,563 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:15:05,564 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:16:03,586 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:16:03,587 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:17:03,424 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:17:03,425 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:18:04,077 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:18:04,079 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:19:03,711 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:19:03,713 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:20:04,376 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:20:04,377 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:21:03,155 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:21:03,157 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:22:03,990 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:22:03,991 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:23:04,260 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:23:04,261 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:24:04,434 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:24:04,435 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:25:07,290 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:25:07,292 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:26:03,690 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:26:03,691 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:27:03,761 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:27:03,762 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:28:06,633 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:28:06,634 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:29:03,911 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:29:03,912 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:30:08,706 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:30:08,707 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:31:03,591 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:31:03,593 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:32:04,013 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:32:04,015 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:33:03,545 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:33:03,547 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:34:05,287 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:34:05,288 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:35:05,139 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:35:05,140 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:36:03,968 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:36:03,969 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:37:03,852 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:37:03,853 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:38:04,793 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:38:04,794 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:39:03,758 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:39:03,759 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:40:08,909 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:40:08,910 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:41:04,042 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:41:04,043 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:42:10,632 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:42:10,634 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:43:12,577 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:43:12,578 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:44:04,340 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:44:04,341 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:45:07,285 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:45:07,286 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:46:03,782 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:46:03,783 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:47:03,805 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:47:03,806 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:48:03,959 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:48:03,960 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:49:03,488 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:49:03,490 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:50:06,001 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:50:06,003 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:51:04,039 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:51:04,041 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:52:04,040 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:52:04,041 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:53:06,073 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:53:06,074 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:54:03,347 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:54:03,348 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:55:06,906 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:55:06,907 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:56:03,524 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:56:03,525 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:57:03,654 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:57:03,656 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:58:03,748 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:58:03,749 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 22:59:04,033 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 22:59:04,034 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:00:08,264 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:00:08,265 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:01:06,127 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:01:06,129 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:02:03,381 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:02:03,382 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:03:04,138 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:03:04,139 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:04:03,484 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:04:03,485 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:05:06,605 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:05:06,607 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:06:03,468 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:06:03,469 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:07:10,814 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:07:10,815 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:08:03,098 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:08:03,100 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:09:03,668 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:09:03,669 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:10:04,358 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:10:04,359 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:11:03,868 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:11:03,869 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:12:02,934 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:12:02,935 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:13:04,305 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:13:04,307 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:14:02,975 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:14:02,976 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:15:07,944 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:15:07,946 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:16:03,431 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:16:03,432 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:17:03,945 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:17:03,946 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:18:03,478 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:18:03,479 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:19:04,242 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:19:04,243 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:20:04,661 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:20:04,663 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:21:03,607 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:21:03,609 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:22:03,134 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:22:03,135 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:23:04,256 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:23:04,257 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:24:03,553 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:24:03,554 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:25:05,209 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:25:05,211 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:26:03,597 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:26:03,598 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:27:03,692 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:27:03,694 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:28:03,019 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:28:03,020 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:29:04,357 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:29:04,358 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:30:05,168 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:30:05,169 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:31:03,766 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:31:03,767 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:32:03,661 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:32:03,663 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:33:04,276 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:33:04,278 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:34:03,601 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:34:03,603 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:35:08,958 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:35:08,960 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:36:02,756 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:36:02,757 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:37:03,729 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:37:03,730 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:38:03,922 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:38:03,923 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:39:04,715 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:39:04,717 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:40:04,798 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:40:04,799 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:41:04,547 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:41:04,549 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:42:03,359 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:42:03,360 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:43:04,195 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:43:04,196 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:44:03,164 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:44:03,165 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:45:07,339 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:45:07,341 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:46:03,251 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:46:03,252 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:47:03,640 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:47:03,641 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:48:03,231 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:48:03,232 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:49:03,850 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:49:03,852 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:50:05,540 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:50:05,541 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:51:03,986 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:51:03,988 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:52:03,018 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:52:03,019 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:53:04,730 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:53:04,731 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:54:03,536 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:54:03,538 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:55:07,412 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:55:07,414 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:56:03,760 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:56:03,762 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:57:04,164 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:57:04,165 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:58:04,300 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:58:04,301 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-27 23:59:04,359 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-27 23:59:04,360 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:00:09,470 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:00:09,475 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:01:07,497 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:01:07,498 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:02:04,310 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:02:04,312 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:03:03,999 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:03:04,001 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:04:03,512 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:04:03,513 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:05:06,986 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:05:06,988 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:06:03,125 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:06:03,126 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:07:10,862 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:07:10,863 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:08:04,238 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:08:04,240 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:09:04,234 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:09:04,235 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:10:04,937 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:10:04,938 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:11:03,844 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:11:03,846 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:12:03,347 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:12:03,348 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:13:04,486 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:13:04,488 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:14:03,324 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:14:03,326 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:15:05,901 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:15:05,902 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:16:03,598 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:16:03,599 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:17:03,569 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:17:03,572 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:18:03,382 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:18:03,383 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:19:04,277 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:19:04,279 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:20:05,099 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:20:05,101 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:21:11,131 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:21:11,133 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:22:03,638 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:22:03,640 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:23:04,573 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:23:04,574 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:24:03,865 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:24:03,866 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:25:07,388 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:25:07,390 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:26:03,180 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:26:03,181 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:27:03,818 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:27:03,820 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:28:03,174 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:28:03,176 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:29:03,743 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:29:03,745 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:30:07,994 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:30:07,996 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:31:05,289 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:31:05,291 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:32:03,544 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:32:03,546 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:33:04,326 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:33:04,327 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:34:04,022 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:34:04,024 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:35:06,835 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:35:06,837 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:36:02,969 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:36:02,971 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:37:03,785 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:37:03,786 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:38:03,133 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:38:03,135 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:39:04,970 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:39:04,971 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:40:07,680 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:40:07,682 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:41:03,631 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:41:03,633 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:42:05,472 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:42:05,474 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:43:03,749 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:43:03,751 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:44:03,931 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:44:03,932 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:45:05,666 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:45:05,668 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:46:07,814 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:46:07,816 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:47:03,507 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:47:03,508 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:48:04,351 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:48:04,351 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:49:03,297 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:49:03,298 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:50:07,626 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:50:07,628 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:51:03,820 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:51:03,821 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:52:05,387 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:52:05,389 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:53:03,913 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:53:03,915 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:54:04,280 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:54:04,281 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:55:05,725 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:55:05,727 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:56:10,996 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:56:10,997 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:57:04,154 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:57:04,156 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:58:03,733 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:58:03,734 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 00:59:03,274 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 00:59:03,275 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:00:12,284 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:00:12,286 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:01:04,471 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:01:04,472 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:02:04,865 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:02:04,867 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:03:03,089 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:03:03,091 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:04:04,184 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:04:04,186 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:05:06,736 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:05:06,737 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:06:04,576 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:06:04,577 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:07:03,949 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:07:03,950 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:08:03,840 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:08:03,841 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:09:02,824 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:09:02,825 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:10:06,602 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:10:06,604 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete
+2025-12-28 01:11:03,906 - consensus_engine - INFO - Starting consensus evaluation cycle
+INFO: Starting consensus evaluation cycle
+2025-12-28 01:11:03,908 - consensus_engine - INFO - No expired proposals to evaluate
+INFO: No expired proposals to evaluate
+Running single evaluation cycle...
+✓ Evaluation complete: 0/0 proposal(s) processed
+✓ Cleanup complete

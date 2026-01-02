@@ -1,0 +1,995 @@
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/main.py", line 79, in index
+    html = '''<!DOCTYPE html>
+KeyError: ' margin'
+ERROR:main:500: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Exception on /api/v1/health [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/api_v1.py", line 174, in health_v1
+    content = f'''
+ValueError: Invalid format specifier
+ERROR:main:500: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+ERROR:main:Exception on /api/v1/status [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/api_v1.py", line 222, in status_v1
+    return health_v1()
+  File "/home/superral/aeon_nexus/routes/api_v1.py", line 174, in health_v1
+    content = f'''
+ValueError: Invalid format specifier
+ERROR:main:500: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+ERROR:main:Exception on /api/v2/status [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/superral/aeon_nexus/routes/api_v2.py", line 231, in status
+    content = f'''
+ValueError: Invalid format specifier
+ERROR:main:500: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - No module named 'flask_limiter.storage'
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - No module named 'flask_limiter.storage'
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Import error: unexpected indent (config.py, line 20)
+WARNING:main:Failed routes.collective: unexpected indent (config.py, line 20)
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+WARNING:main:Failed routes.api_v1: unexpected indent (config.py, line 20)
+WARNING:main:Failed routes.api_v2: unexpected indent (config.py, line 20)
+WARNING:main:! SECURITY: Rate limiter not available - No module named 'flask_limiter.storage'
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Import error: cannot import name 'SecurityManager' from 'core.security' (/home/superral/aeon_nexus/core/security.py)
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Import error: cannot import name 'SecurityManager' from 'core.security' (/home/superral/aeon_nexus/core/security.py)
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Import error: cannot import name 'SecurityManager' from 'core.security' (/home/superral/aeon_nexus/core/security.py)
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Import error: cannot import name 'SecurityManager' from 'core.security' (/home/superral/aeon_nexus/core/security.py)
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+[UID:1193][2863626] Child process with pid: 2863747 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 2970947 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 2970948 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 2970950 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3066178 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3066180 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3100811 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3100952 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3101522 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3102272 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3102901 was killed by signal: 15, core dumped: no
+[UID:1193][2863626] Child process with pid: 3104263 was killed by signal: 15, core dumped: no
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+[UID:1193][1965244] Child process with pid: 2441636 was killed by signal: 15, core dumped: no
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+[UID:1193][1965244] Child process with pid: 2678622 was killed by signal: 15, core dumped: no
+[UID:1193][1965244] Child process with pid: 2681471 was killed by signal: 15, core dumped: no
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_limiter/extension.py:336: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:main:\u2713 SECURITY: Rate limiter initialized with file-based storage
+INFO:main:\u2713 SECURITY: Rate limit storage at /data/rate_limits/
+INFO:main:DB initialized
+INFO:main:App created
+[UID:1193][1965244] Child process with pid: 3271749 was killed by signal: 15, core dumped: no
+[UID:1193][1965244] Child process with pid: 3291522 was killed by signal: 15, core dumped: no
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'rate_limit'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'rate_limit'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'rate_limit'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'rate_limit'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'security'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'security'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+WARNING:main:Failed routes.collective: No module named 'security'
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+WARNING:main:! SECURITY: Rate limiter not available - cannot import name 'limiter' from 'middleware.rate_limit' (/home/superral/aeon_nexus/middleware/rate_limit.py)
+WARNING:main:! SECURITY: Install with: pip install Flask-Limiter --break-system-packages
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+ERROR:main:Exception on /api/v3/collective/proposals [GET]
+Traceback (most recent call last):
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/superral/virtualenv/aeon_nexus/3.9/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/superral/aeon_nexus/routes/collective.py", line 400, in get_proposals
+    allowed_hour, headers_hour = check_rate_limit(
+  File "/home/superral/aeon_nexus/middleware/rate_limit.py", line 195, in check_rate_limit
+    limiter = get_rate_limiter()
+  File "/home/superral/aeon_nexus/middleware/rate_limit.py", line 176, in get_rate_limiter
+    _rate_limiter = FileBasedRateLimiter(storage_dir)
+  File "/home/superral/aeon_nexus/middleware/rate_limit.py", line 23, in __init__
+    self.storage_dir = Path(storage_dir)
+  File "/opt/alt/python39/lib64/python3.9/pathlib.py", line 1000, in __new__
+    self = cls._from_parts(args, init=False)
+  File "/opt/alt/python39/lib64/python3.9/pathlib.py", line 625, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "/opt/alt/python39/lib64/python3.9/pathlib.py", line 609, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR:main:500: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:Modules loaded
+INFO:main:Registered routes.collective
+INFO:main:Registered routes.log_chain
+INFO:main:Registered routes.admin
+INFO:main:Registered routes.admin_ui
+INFO:main:Registered routes.api_v1
+INFO:main:Registered routes.api_v2
+ERROR:main:\u2717 SECURITY: Rate limiter initialization failed - name 'limiter' is not defined
+INFO:main:DB initialized
+INFO:main:App created
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================
+INFO:main:\u2713 Modules loaded successfully
+INFO:main:\u2713 Registered blueprint: routes.collective
+INFO:main:\u2713 Registered blueprint: routes.log_chain
+INFO:main:\u2713 Registered blueprint: routes.admin
+INFO:main:\u2713 Registered blueprint: routes.admin_ui
+INFO:main:\u2713 Registered blueprint: routes.api_v1
+INFO:main:\u2713 Registered blueprint: routes.api_v2
+INFO:main:\u2713 Total blueprints loaded: 6
+INFO:main:\u2713 Rate limiter module available
+INFO:main:\u2713 Rate limit storage at /data/rate_limits/
+INFO:main:\u2713 Database tables initialized
+INFO:main:======================================================================
+INFO:main:\u2713 AEON NEXUS Collective - Application Created
+INFO:main:\u2713 Environment: production
+INFO:main:\u2713 Debug Mode: False
+INFO:main:\u2713 Blueprints Loaded: 6
+INFO:main:======================================================================

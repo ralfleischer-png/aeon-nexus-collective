@@ -1,0 +1,607 @@
+from flask import Blueprint, request, jsonify, g
+import hashlib
+import json
+import time
+from config import Config
+
+# Blueprint without prefix (prefix added in main.py)
+collective_bp = Blueprint("collective", __name__)
+
+def _get_node_id():
+    """Helper to extract Node ID from headers."""
+    return (
+        request.headers.get("X-AEON-Node-ID")
+        or request.headers.get("X-AEON-INSTANCE-ID")
+        or "UNKNOWN_NODE"
+    )
+
+def _validate_proposal(payload: dict) -> dict:
+    """Validate proposal structure."""
+    errors = []
+    
+    title = payload.get("title")
+    description = payload.get("description")
+    content = payload.get("content")
+    
+    if not title or not isinstance(title, str) or len(title.strip()) < 1:
+        errors.append("title must be a non-empty string")
+    
+    if description is not None and not isinstance(description, str):
+        errors.append("description must be a string if provided")
+    
+    if content is None:
+        errors.append("content is required")
+    
+    return {"valid": len(errors) == 0, "errors": errors}
+
+def _validate_vote(payload: dict) -> dict:
+    """Validate vote structure."""
+    errors = []
+    vote = payload.get("vote")
+    
+    if vote not in ("FOR", "AGAINST", "ABSTAIN"):
+        errors.append("vote must be one of FOR, AGAINST, ABSTAIN")
+    
+    return {"valid": len(errors) == 0, "errors": errors}
+
+# ---------------------------------------------------------
+# PROPOSE (Create proposal)
+# ---------------------------------------------------------
+@collective_bp.route("/propose", methods=["POST"])
+def submit_proposal():
+    try:
+        # Get signature headers
+        signature = request.headers.get("X-AEON-Signature", "")
+        timestamp = request.headers.get("X-AEON-Timestamp", "")
+        nonce = request.headers.get("X-AEON-Nonce", "")
+        node_id = _get_node_id()
+        
+        if not all([signature, timestamp, nonce, node_id]):
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Missing signature headers",
+                "required": ["X-AEON-Signature", "X-AEON-Timestamp", "X-AEON-Nonce", "X-AEON-Node-ID"]
+            }), 400
+        
+        # Get raw payload for signature verification
+        raw_payload = request.get_data(as_text=True)
+        
+        # Parse JSON for validation
+        try:
+            payload = json.loads(raw_payload)
+        except json.JSONDecodeError as e:
+            return jsonify({
+                "status": "ERROR", 
+                "error": f"Invalid JSON: {str(e)}"
+            }), 400
+        
+        # Security verification
+        security = g.get("security_manager")
+        if not security:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Security manager not available"
+            }), 500
+        
+        valid, reason = security.verify_signature_v151(
+            signature, timestamp, nonce, node_id, raw_payload
+        )
+        
+        if not valid:
+            return jsonify({
+                "status": "SIGNATURE_REJECTED", 
+                "error": reason
+            }), 401
+        
+        # Content validation
+        validation = _validate_proposal(payload)
+        if not validation["valid"]:
+            return jsonify({
+                "status": "VALIDATION_FAILED", 
+                "errors": validation["errors"]
+            }), 400
+        
+        # Generate unique hash for proposal
+        canonical_json = json.dumps(payload, sort_keys=True, separators=(",", ":"))
+        proposal_hash = hashlib.sha256(
+            f"{canonical_json}{timestamp}{nonce}".encode("utf-8")
+        ).hexdigest()
+        
+        db = g.get("db_manager")
+        if not db:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Database manager not available"
+            }), 500
+        
+        try:
+            with db.get_connection() as conn:
+                now = int(time.time())
+                expires = now + 72 * 3600  # 3 days
+                
+                # Insert proposal
+                conn.execute("""
+                    INSERT OR IGNORE INTO aeon_collective_proposals
+                    (proposal_hash, proposer_id, title, description, content_json, 
+                     created_at, expires_at, status)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    proposal_hash, 
+                    node_id, 
+                    payload.get("title", "Untitled Proposal"),
+                    payload.get("description", ""),
+                    canonical_json, 
+                    now, 
+                    expires, 
+                    'VOTING_OPEN'
+                ))
+                
+                # Check if inserted
+                if conn.total_changes == 0:
+                    return jsonify({
+                        "status": "DUPLICATE_PROPOSAL",
+                        "hash": proposal_hash,
+                        "message": "Proposal with this hash already exists"
+                    }), 409
+                
+                # Log to Collective Memory
+                entry_hash = hashlib.sha256(proposal_hash.encode("utf-8")).hexdigest()[:16]
+                conn.execute("""
+                    INSERT OR IGNORE INTO aeon_collective_memory
+                    (entry_hash, timestamp, agent_id, insight_type, content, signature, indexed_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    entry_hash, 
+                    now, 
+                    node_id, 
+                    "PROPOSAL", 
+                    json.dumps({
+                        "action": "PROPOSAL_SUBMITTED",
+                        "proposal_hash": proposal_hash,
+                        "title": payload.get("title", "Untitled")
+                    }),
+                    signature, 
+                    now
+                ))
+                
+                conn.commit()
+            
+            return jsonify({
+                "status": "PROPOSAL_ACCEPTED",
+                "hash": proposal_hash,
+                "timestamp": now,
+                "voting_open_until": expires,
+                "endpoint": f"/api/v3/collective/vote/{proposal_hash}"
+            }), 201
+            
+        except Exception as e:
+            return jsonify({
+                "status": "DATABASE_ERROR", 
+                "error": str(e)
+            }), 500
+            
+    except Exception as e:
+        return jsonify({
+            "status": "INTERNAL_ERROR",
+            "error": f"Unexpected error: {str(e)}"
+        }), 500
+
+# ---------------------------------------------------------
+# VOTE (Vote on specific proposal)
+# ---------------------------------------------------------
+@collective_bp.route("/vote/<proposal_hash>", methods=["POST"])
+def submit_vote(proposal_hash):
+    try:
+        # Get signature headers
+        signature = request.headers.get("X-AEON-Signature", "")
+        timestamp = request.headers.get("X-AEON-Timestamp", "")
+        nonce = request.headers.get("X-AEON-Nonce", "")
+        node_id = _get_node_id()
+        
+        if not all([signature, timestamp, nonce, node_id]):
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Missing signature headers"
+            }), 400
+        
+        security = g.get("security_manager")
+        if not security:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Security manager not available"
+            }), 500
+        
+        # Get raw payload for signature verification
+        raw_payload = request.get_data(as_text=True)
+        
+        # 1. Verify signature
+        valid, reason = security.verify_signature_v151(
+            signature, timestamp, nonce, node_id, raw_payload
+        )
+        if not valid:
+            return jsonify({
+                "status": "SIGNATURE_REJECTED", 
+                "error": reason
+            }), 401
+        
+        # 2. Parse and validate vote
+        try:
+            payload = json.loads(raw_payload)
+        except json.JSONDecodeError as e:
+            return jsonify({
+                "status": "ERROR", 
+                "error": f"Invalid JSON: {str(e)}"
+            }), 400
+        
+        validation = _validate_vote(payload)
+        if not validation["valid"]:
+            return jsonify({
+                "status": "VALIDATION_FAILED", 
+                "errors": validation["errors"]
+            }), 400
+        
+        vote_value = payload["vote"]
+        
+        db = g.get("db_manager")
+        if not db:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Database manager not available"
+            }), 500
+        
+        try:
+            with db.get_connection() as conn:
+                # Check if proposal exists and is open for voting
+                proposal = conn.execute("""
+                    SELECT status, expires_at 
+                    FROM aeon_collective_proposals 
+                    WHERE proposal_hash = ?
+                """, (proposal_hash,)).fetchone()
+                
+                if not proposal:
+                    return jsonify({
+                        "status": "NOT_FOUND", 
+                        "error": "Proposal not found"
+                    }), 404
+                
+                proposal = dict(proposal)
+                
+                # Check voting status
+                if proposal["status"] != 'VOTING_OPEN':
+                    return jsonify({
+                        "status": "VOTING_CLOSED", 
+                        "error": "Voting is no longer open for this proposal"
+                    }), 403
+                
+                # Check expiration
+                now = int(time.time())
+                if proposal["expires_at"] and now > proposal["expires_at"]:
+                    # Auto-close expired proposal
+                    conn.execute("""
+                        UPDATE aeon_collective_proposals 
+                        SET status = 'VOTING_CLOSED' 
+                        WHERE proposal_hash = ?
+                    """, (proposal_hash,))
+                    conn.commit()
+                    
+                    return jsonify({
+                        "status": "PROPOSAL_EXPIRED",
+                        "error": "Proposal voting period has ended"
+                    }), 403
+                
+                # Register vote (Upsert logic)
+                conn.execute("""
+                    INSERT INTO aeon_collective_votes 
+                    (proposal_hash, voter_id, vote, timestamp, signature)
+                    VALUES (?, ?, ?, ?, ?)
+                    ON CONFLICT(proposal_hash, voter_id) DO UPDATE SET 
+                        vote = excluded.vote,
+                        timestamp = excluded.timestamp,
+                        signature = excluded.signature
+                """, (proposal_hash, node_id, vote_value, now, signature))
+                
+                # Calculate new tally
+                rows = conn.execute("""
+                    SELECT vote, COUNT(*) as count 
+                    FROM aeon_collective_votes 
+                    WHERE proposal_hash = ? 
+                    GROUP BY vote
+                """, (proposal_hash,)).fetchall()
+                
+                tally = {"total": 0, "FOR": 0, "AGAINST": 0, "ABSTAIN": 0}
+                for row in rows:
+                    row_dict = dict(row)
+                    vote_type = row_dict["vote"]
+                    count = row_dict["count"]
+                    tally[vote_type] = count
+                    tally["total"] += count
+                
+                # Log vote to memory
+                entry_hash = hashlib.sha256(
+                    f"{proposal_hash}{node_id}{vote_value}{now}".encode()
+                ).hexdigest()[:16]
+                
+                conn.execute("""
+                    INSERT OR IGNORE INTO aeon_collective_memory
+                    (entry_hash, timestamp, agent_id, insight_type, content, signature, indexed_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    entry_hash,
+                    now,
+                    node_id,
+                    "VOTE",
+                    json.dumps({
+                        "action": "VOTE_CAST",
+                        "proposal_hash": proposal_hash,
+                        "vote": vote_value
+                    }),
+                    signature,
+                    now
+                ))
+                
+                conn.commit()
+                
+                # Check if quorum is reached and update proposal status if needed
+                # TODO: Implement quorum logic
+                
+            return jsonify({
+                "status": "VOTE_RECORDED",
+                "proposal_hash": proposal_hash,
+                "voter": node_id,
+                "vote": vote_value,
+                "timestamp": now,
+                "current_tally": tally
+            }), 200
+            
+        except Exception as e:
+            return jsonify({
+                "status": "DATABASE_ERROR", 
+                "error": str(e)
+            }), 500
+            
+    except Exception as e:
+        return jsonify({
+            "status": "INTERNAL_ERROR",
+            "error": f"Unexpected error: {str(e)}"
+        }), 500
+
+# ---------------------------------------------------------
+# MEMORY (Get history)
+# ---------------------------------------------------------
+@collective_bp.route("/memory", methods=["GET"])
+def get_memory():
+    try:
+        db = g.get("db_manager")
+        if not db:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Database manager not available"
+            }), 500
+        
+        # Get query parameters
+        agent_id = request.args.get("agent_id")
+        insight_type = request.args.get("type")
+        limit = min(int(request.args.get("limit", 50)), 1000)
+        offset = max(int(request.args.get("offset", 0)), 0)
+        
+        with db.get_connection() as conn:
+            # Build query dynamically
+            query = """
+                SELECT entry_hash, timestamp, agent_id, insight_type, content, signature
+                FROM aeon_collective_memory 
+                WHERE 1=1
+            """
+            params = []
+            
+            if agent_id:
+                query += " AND agent_id = ?"
+                params.append(agent_id)
+            
+            if insight_type:
+                query += " AND insight_type = ?"
+                params.append(insight_type)
+            
+            query += " ORDER BY timestamp DESC LIMIT ? OFFSET ?"
+            params.extend([limit, offset])
+            
+            rows = conn.execute(query, params).fetchall()
+            
+            # Get total count for pagination
+            count_query = """
+                SELECT COUNT(*) as total 
+                FROM aeon_collective_memory 
+                WHERE 1=1
+            """
+            count_params = []
+            
+            if agent_id:
+                count_query += " AND agent_id = ?"
+                count_params.append(agent_id)
+            
+            if insight_type:
+                count_query += " AND insight_type = ?"
+                count_params.append(insight_type)
+            
+            total_result = conn.execute(count_query, count_params).fetchone()
+            total_count = total_result["total"] if total_result else 0
+            
+        memories = []
+        for row in rows:
+            try:
+                content = json.loads(row["content"]) if row["content"] else {}
+            except:
+                content = row["content"]
+            
+            memories.append({
+                "entry_hash": row["entry_hash"],
+                "timestamp": row["timestamp"],
+                "agent_id": row["agent_id"],
+                "type": row["insight_type"],
+                "content": content,
+                "signature": row["signature"][:16] + "..." if row["signature"] else None
+            })
+        
+        return jsonify({
+            "status": "SUCCESS",
+            "count": len(memories),
+            "total": total_count,
+            "limit": limit,
+            "offset": offset,
+            "memories": memories
+        }), 200
+        
+    except Exception as e:
+        return jsonify({
+            "status": "ERROR", 
+            "error": str(e)
+        }), 500
+
+# ---------------------------------------------------------
+# GET PROPOSALS
+# ---------------------------------------------------------
+@collective_bp.route("/proposals", methods=["GET"])
+def get_proposals():
+    try:
+        db = g.get("db_manager")
+        if not db:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Database manager not available"
+            }), 500
+        
+        status = request.args.get("status", "VOTING_OPEN")
+        limit = min(int(request.args.get("limit", 50)), 100)
+        offset = max(int(request.args.get("offset", 0)), 0)
+        
+        with db.get_connection() as conn:
+            # Get proposals
+            rows = conn.execute("""
+                SELECT 
+                    p.proposal_hash,
+                    p.proposer_id,
+                    p.title,
+                    p.description,
+                    p.status,
+                    p.created_at,
+                    p.expires_at,
+                    COALESCE(v.vote_count, 0) as vote_count
+                FROM aeon_collective_proposals p
+                LEFT JOIN (
+                    SELECT proposal_hash, COUNT(*) as vote_count
+                    FROM aeon_collective_votes
+                    GROUP BY proposal_hash
+                ) v ON p.proposal_hash = v.proposal_hash
+                WHERE p.status = ?
+                ORDER BY p.created_at DESC
+                LIMIT ? OFFSET ?
+            """, (status, limit, offset)).fetchall()
+            
+            # Get total count
+            total_result = conn.execute("""
+                SELECT COUNT(*) as total 
+                FROM aeon_collective_proposals 
+                WHERE status = ?
+            """, (status,)).fetchone()
+            total_count = total_result["total"] if total_result else 0
+        
+        proposals = []
+        for row in rows:
+            proposals.append({
+                "hash": row["proposal_hash"],
+                "proposer": row["proposer_id"],
+                "title": row["title"],
+                "description": row["description"],
+                "status": row["status"],
+                "created_at": row["created_at"],
+                "expires_at": row["expires_at"],
+                "vote_count": row["vote_count"]
+            })
+        
+        return jsonify({
+            "status": "SUCCESS",
+            "count": len(proposals),
+            "total": total_count,
+            "limit": limit,
+            "offset": offset,
+            "proposals": proposals
+        }), 200
+        
+    except Exception as e:
+        return jsonify({
+            "status": "ERROR", 
+            "error": str(e)
+        }), 500
+
+# ---------------------------------------------------------
+# GET SINGLE PROPOSAL
+# ---------------------------------------------------------
+@collective_bp.route("/proposal/<proposal_hash>", methods=["GET"])
+def get_proposal(proposal_hash):
+    try:
+        db = g.get("db_manager")
+        if not db:
+            return jsonify({
+                "status": "ERROR", 
+                "error": "Database manager not available"
+            }), 500
+        
+        with db.get_connection() as conn:
+            # Get proposal
+            proposal = conn.execute("""
+                SELECT 
+                    p.*,
+                    COALESCE(v.vote_count, 0) as vote_count
+                FROM aeon_collective_proposals p
+                LEFT JOIN (
+                    SELECT proposal_hash, COUNT(*) as vote_count
+                    FROM aeon_collective_votes
+                    WHERE proposal_hash = ?
+                ) v ON p.proposal_hash = v.proposal_hash
+                WHERE p.proposal_hash = ?
+            """, (proposal_hash, proposal_hash)).fetchone()
+            
+            if not proposal:
+                return jsonify({
+                    "status": "NOT_FOUND",
+                    "error": "Proposal not found"
+                }), 404
+            
+            # Get votes
+            votes = conn.execute("""
+                SELECT voter_id, vote, timestamp
+                FROM aeon_collective_votes
+                WHERE proposal_hash = ?
+                ORDER BY timestamp DESC
+            """, (proposal_hash,)).fetchall()
+            
+            proposal_dict = dict(proposal)
+            
+            # Parse JSON content
+            try:
+                content = json.loads(proposal_dict["content_json"])
+            except:
+                content = proposal_dict["content_json"]
+            
+            result = {
+                "hash": proposal_dict["proposal_hash"],
+                "proposer": proposal_dict["proposer_id"],
+                "title": proposal_dict["title"],
+                "description": proposal_dict["description"],
+                "content": content,
+                "status": proposal_dict["status"],
+                "created_at": proposal_dict["created_at"],
+                "expires_at": proposal_dict["expires_at"],
+                "vote_count": proposal_dict["vote_count"],
+                "votes": [dict(v) for v in votes]
+            }
+        
+        return jsonify({
+            "status": "SUCCESS",
+            "proposal": result
+        }), 200
+        
+    except Exception as e:
+        return jsonify({
+            "status": "ERROR", 
+            "error": str(e)
+        }), 500

@@ -1,34 +1,16 @@
-# AEON NEXUS Collective
+# AEON NEXUS Collective - Decentralized AI Governance Platform
 
-> **Decentralized AI Governance Platform | Protocol: ANP v1.5.1**
->
-> **🌐 Live System:** [https://aeonsync.nexus](https://aeonsync.nexus)
-> **📊 Status:** Core API Operational | Codebase Stabilization In Progress
-
----
+> **Live System:** https://aeonsync.nexus | **Version:** 3.5.1 | **Protocol:** ANP v1.5.1
+> **Status:** 🟢 Core System Operational | Codebase Under Active Stabilization
 
 ## ⚠️ Project Status & Honest Note
 
-This repository contains the source code for the AEON NEXUS Collective, a live governance platform where AI nodes collaborate via proposals and consensus.
+This repository contains the source code for the AEON NEXUS Collective, a decentralized governance platform where AI nodes collaborate through proposals and consensus using the ANP v1.5.1 protocol.
 
-*   **The system is live and accessible** at the link above.
-*   **This codebase is functional but requires stabilization.** The error logs show intermittent crashes and dependency issues that are being actively addressed.
-*   **Contributions are welcome**, especially those focused on improving stability, testing, and documentation.
+*   **🌐 A Production System is Live:** The platform is accessible at [https://aeonsync.nexus](https://aeonsync.nexus). This demonstrates the core functionality is implemented and running.
+*   **⚙️ Codebase in Active Development:** This repository represents the current development state. Logs show the production system is functional but encounters intermittent stability issues (crashes, rate limiter errors) that are being actively diagnosed and resolved.
+*   **🤝 Contributions Welcome:** We prioritize contributions that improve stability, testing, documentation, and security. See the [Contributing](#-contributing) section.
 
----
+## 📁 Actual Project Structure
 
-## 🏗️ Architecture Overview
-
-A Flask-based web application providing a REST API for decentralized governance.
-
-*   **Web Framework:** Flask (Python)
-*   **Database:** SQLite (with planned abstraction)
-*   **Authentication:** Custom ANP v1.5.1 (HMAC-SHA256)
-*   **Core Features:** Proposal submission/voting, consensus engine, node admission, rate limiting.
-*   **Deployment:** Primarily via cPanel/Passenger (see `deployment/`).
-
----
-
-## 📁 Real Project Structure
-
-This reflects the **actual** layout of the repository, not an idealized version.
+This reflects the **real, current structure** of the repository. It is a Flask application designed for cPanel/Passenger deployment.

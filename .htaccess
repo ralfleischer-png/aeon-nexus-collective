@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+PassengerEnabled on
+PassengerAppRoot /home/superral/aeon_nexus
+PassengerPython /opt/alt/python39/bin/python3.9
+PassengerStartupFile passenger_wsgi.py
